@@ -1,0 +1,45 @@
+.header{
+    background-color: #000;
+}
+.header_div{
+    /* display: flex; */
+    text-align: center;    
+}
+.logo{
+    width: 30%;
+    height: auto;
+}
+
+.nav_ul{
+    display:flex;
+    list-style:none;
+    margin:none;
+    padding:none;
+}
+.nav_li{
+    display:inline-block;
+    background-color: #fff;
+    border-radius: 15%;
+    width:20%;
+    margin:2px;
+    text-align: center;
+}
+.newsimage{
+    width:100%;
+    height:auto;
+}
+
+.footer_ul{
+    display:flex;
+    list-style:none;
+    border-top:solid #000;
+    justify-content: space-around;
+    padding: none;
+}
+.footer_li{
+    background-color: #fff;
+    border-radius: 15%;
+    width:20%;
+    margin:2px;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.header{
+
+    background-color: #000;
+}
+.header_ul{
+    display:flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    list-style: none;
+    width:100%;
+}
+.header_li{
+    /* float: left; */
+    margin-right: 2px;
+    width:120px;
+    background-color: #fff;
+}
+#header_logo{
+    margin-right:auto;
+}
+.navi{
+
+}
+.navi_ul{
+    display:flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    list-style: none;
+}
+.navi_li{
+    margin-right: 2px;
+    width:120px;
+    background-color: #fff;
+}
+.main_wrapper{
+    display:flex;
+    background-color: #000;
+}
+.userbar_lf{
+    width:15%;
+}
+.mainnews_cen{
+    width:70%;
+}
+.ranking_rg{
+    width:15%;
+}
