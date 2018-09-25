@@ -8,4 +8,10 @@ def index(request):
             'data': data,
             }
     return render(request, 'hello/index.html', params)
+
+def call(request):
+    params = {
+            'msg': 'コードを共有してください。',
+            }
+    return render(request, 'hello/call.html', params)
 # Create your views here.

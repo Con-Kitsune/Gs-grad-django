@@ -24,22 +24,36 @@
         </nav>
     </header>
     <main>
-        <article>
-            {% for item in data %}
-            <a href={{item.url}}>
-                <span>
-                    <img class="newsimage" src={{item.image}} alt="">
-                </span>
-                <h2>{{item.title}}</h2>
-            </a>
-            {% endfor %}
-            <input type="button">
-        </article>
+        <p>{{msg}}<?p>
+        <div class="pure-g">
 
+                <!-- Video area -->
+                <div class="pure-u-2-3" id="video-container">
+                    <video id="their-video" autoplay></video>
+                    <video id="my-video" muted="true" autoplay></video>
+                </div>
+            
+                <!-- Steps -->
+                <div class="pure-u-1-3">
+                    <h2>SkyWay Video Chat</h2>
+            
+                    <p>Your id: <span id="my-id">...</span></p>
+                    <p>Share this id with others so they can call you.</p>
+                    <h3>Make a call</h3>
+                    <form id="make-call" class="pure-form">
+                        <input type="text" placeholder="Call user id..." id="callto-id">
+                        <button href="#" class="pure-button pure-button-success" type="submit">Call</button>
+                    </form>
+                    <form id="end-call" class="pure-form">
+                        <p>Currently in call with <span id="their-id">...</span></p>
+                        <button href="#" class="pure-button pure-button-success" type="submit">End Call</button>
+                    </form>
+                </div>
+            </div>
     </main>
     <footer>
         <ul class="footer_ul">
-            <a href="call"><li class="footer_li"><i class="far fa-file-alt fa-3x"></i></li></a>
+            <li class="footer_li"><i class="far fa-file-alt fa-3x"></i></li>
             <li class="footer_li"><i class="far fa-check-circle fa-3x"></i></li>
             <li class="footer_li"><i class="far fa-bell fa-3x"></i></li>
             <li class="footer_li"><i class="fas fa-user-cog fa-3x"></i></li>

@@ -31,7 +31,8 @@
 }
 main{
     height:80%;
-    overflow:scroll;
+}
+article{
 }
 footer{
     height:10%;
@@ -49,4 +50,8 @@ footer{
     width:20%;
     margin:2px;
     text-align: center;
+}
+a{
+    display:block;
+    overflow:scroll;
 }
